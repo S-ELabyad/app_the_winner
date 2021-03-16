@@ -1,0 +1,18 @@
+<%- include('../layouts/index'); -%>
+
+<h3><%=viewTitle %></h3>
+
+
+<form action="/AddCategory" method="POST" autocomplete="off">
+
+                <div class="form-group">
+                    <label for="">Entrer vous Ctegorie</label>
+                    <input type="text" class="form-control" name="name" placeholder="name">
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="btn btn-info"><i class="fa fa-database"></i> Submit</button>
+                </div>
+</form> 
+
+<%- include('../layouts/footer'); -%>

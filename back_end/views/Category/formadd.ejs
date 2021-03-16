@@ -1,0 +1,25 @@
+<%- include('../layouts/index'); -%>
+
+<h3> <%=viewTitle %> </h3>
+
+
+<form action="/Category2" method="POST" autocomplete="off">
+
+     <div >
+  <!-- <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+    Dropdown button
+  </button> -->
+
+  <!-- <select onchange="getSelectedCat()" id="getSelected">
+  <% data.forEach(function(user){ %>
+    <option href="#" value="<%= user._id %>"> <%= user.name %> </option>
+  <% }); %>
+  </select> -->
+
+    <input type="submit" class="btn btn-info" value="Submit Button">
+
+  </div>
+</form> 
+
+
+<%- include('../layouts/footer'); -%>
